@@ -1,7 +1,7 @@
 tweepy
 regex
 pandas
-strings==0.1.2
+string==0.1.2
 csv
 wordcloud
 Pillow
