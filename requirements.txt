@@ -1,7 +1,6 @@
 tweepy
 regex
 pandas
-string==0.1.2
 csv
 wordcloud
 Pillow
@@ -12,3 +11,4 @@ streamlit
 altair
 Sastrawi
 time
+strings
