@@ -9,4 +9,3 @@ matplotlib
 streamlit
 altair
 Sastrawi
-time
