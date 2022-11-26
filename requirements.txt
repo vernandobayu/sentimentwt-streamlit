@@ -1,10 +1,10 @@
 tweepy
-re
+regex
 pandas
-string
+strings
 csv
 wordcloud
-PIL
+Pillow
 nltk
 seaborn
 matplotlib
