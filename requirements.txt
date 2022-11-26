@@ -1,0 +1,13 @@
+tweepy
+re
+pandas
+string
+csv
+wordcloud
+PIL
+nltk
+seaborn
+matplotlib
+streamlit
+altair
+Sastrawi
