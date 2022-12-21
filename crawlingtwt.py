@@ -168,7 +168,18 @@ if keyword != '':
         df_fix_neutral = df_fix[df_fix["sentimen"] == 'neutral']
         df_fix_positive = df_fix[df_fix["sentimen"] == 'positive']
         df_fix_negative = df_fix[df_fix["sentimen"] == 'negative']
+        def convert_df(df):
+            return df.to_csv(index=False).encode('utf-8')
 
+        csv = convert_df(df_fix)
+
+        st.download_button(
+            "Press to Download CSV",
+            csv,
+            "file.csv",
+            "text/csv",
+            key='download-csv'
+                                )
         
         #Function to Create Wordcloud Neutral
         def create_wordcloud_neutral(text):
